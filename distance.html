@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="distance.css">
+    <title>Distance Measurement</title>
+</head>
+<body>
+    <h1>Distance Measurement</h1>
+    <input id="input" type="text" placeholder="Input meter here">
+    <div id="Container">
+        <div id="output">
+        <div>
+            <div id="km">Kilometer
+            <div id="kmOutput"></div>
+            </div>
+        </div>
+        <div id="ft">Feet
+            <div id="feetOutput"></div>
+        </div>
+        <div id="ml">Mile
+            <div id="mlOutput"></div>
+        </div>
+        </div>
+    </div>
+   
+    <script>
+        //document.getElementById('output').style.visibility = 'hidden'
+        document.getElementById('input').addEventListener('input', function(e){
+            //document.getElementById('output').style.visibility = 'visible'
+            let input = e.target.value;
+            document.getElementById('kmOutput').innerHTML = input/ 1000;
+            document.getElementById('feetOutput').innerHTML = input*0.305;
+            document.getElementById('mlOutput').innerHTML = input*1609344;
+            
+
+        })
+
+        
+    </script>
+</body>
+</html>

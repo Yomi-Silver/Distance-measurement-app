@@ -1,0 +1,45 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #aadfaa, #8989d4);
+font-family: fantasy;}
+
+h1{text-align: center;
+    margin:2em 0; 
+    text-shadow: 2px 4px 2px white;   
+    
+}
+
+#Container{
+border-radius: 4px;
+height: 30em;
+width: 100%;
+border-width: 40%;
+padding-top: 20px;
+padding-left: 2px;
+padding-right: 2px;
+}
+
+input{
+    width: 50%;
+    height: 40px;
+    margin-left: 16em;
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-width: thin;
+}
+
+ #km, #ft, #ml{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 70px;
+    margin-left: 13em;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
